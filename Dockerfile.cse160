@@ -1,0 +1,1 @@
+FROM --platform=linux/aarch64  ghcr.io/kastnerrg/qualcomm-docker-base:latest

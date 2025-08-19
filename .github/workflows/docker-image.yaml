@@ -39,7 +39,7 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         context: .
-        file: Dockerfile
+        file: Dockerfile.base
         tags: ghcr.io/kastnerrg/qualcomm-docker-base:latest
         platforms: linux/aarch64
         push: true
